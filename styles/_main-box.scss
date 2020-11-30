@@ -1,0 +1,51 @@
+
+.main-box {
+    display: flex
+}
+
+.cta {
+    font-size: $size-large;
+    font-weight: bold;
+    font-family: Karla;
+    padding-top: $size-xl;
+}
+
+.main-copy {
+    padding-bottom: $size-medium;
+    width: 60vh;
+    margin-bottom: 3rem;
+}
+
+button {
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    margin: 0rem 1rem 0rem 0rem;
+    font-size: $size-medium;
+    font-weight: bold;
+    border: none;
+    font-family: Karla;
+    cursor: pointer;
+}
+
+.season-pass {
+    color: white;
+    background: #f60058;
+}
+
+.get-tickets {
+    background: none;
+    color: #f60058;
+    border: 0.4rem solid #f60058;
+    padding: 0.6rem 2.5rem 0.6rem 2.5rem;
+}
+
+.freestyler-box {
+    margin: 10rem 5rem 0rem 5rem;
+}
+
+#freestyler {
+    height: 50vh
+}
+
+
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap');

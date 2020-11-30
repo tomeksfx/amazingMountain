@@ -1,0 +1,79 @@
+header {
+    background: linear-gradient(270deg, rgba(255,255,255,1) 16%, rgba(255,255,255,0.24413515406162467) 100%);
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    height: 5rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+ul {
+    display: flex;
+    padding: 2rem;
+}
+
+.weather-image img{
+    opacity: 90%;
+    height: 5rem;
+}
+
+.weather-widget {
+    display: flex;
+    height: 5vh;
+    font-size: $size-small;
+    width: 25vh;
+    background:$bg-widget;
+    color: $font-widget;   
+}
+
+.current-weather {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: flex-end;
+
+    .current-weather-data {
+        font-weight: bold;
+        color: white;
+    }
+}
+
+.h_line { 
+    width:85%; 
+    height:0.5px;
+    opacity: .4; 
+    background: $font-widget;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recent-snowfall {
+    display: flex;
+    background:$bg-widget;
+    width: 14.9vh;
+    height: 2.5vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    .recent-snowfall-data {
+        font-weight: bold;
+        color: white;
+    }
+
+}
+
+
+@import "variables"
